@@ -1,0 +1,12 @@
+product: jvm/app
+
+dependencies:
+  - org.jetbrains.kotlinx:kotlinx-datetime:0.6.2
+
+settings:
+    kotlin:
+        version: 2.4.10  # Set Kotlin compiler version to 2.4.10
+        freeCompilerArgs: [-Xcollection-literals]
+    jvm:
+        release: 25 # Set the minimum JVM version that the Kotlin and Java code should be compatible with
+
